@@ -1,0 +1,26 @@
+{
+  "name": "as-react-course",
+  "version": "1.0.0",
+  "description": "basic react stuff",
+  "homepage": "https://github.com/Eunice-Amirtharajan/react-projects#readme",
+  "bugs": {
+    "url": "https://github.com/Eunice-Amirtharajan/react-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eunice-Amirtharajan/react-projects.git"
+  },
+  "license": "ISC",
+  "author": "Eunice",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

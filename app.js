@@ -1,10 +1,7 @@
 
-{/* <div id="parent">
-    <div id="child">
-        <h1>I am h1</h1>
-        <h2>I am h2</h2>
-    </div>
-</div> */}
+import React from "react";
+import { createRoot } from "react-dom/client";
+
 const parent = React.createElement(
     'div',
     { id: 'parent' },
@@ -13,11 +10,11 @@ const parent = React.createElement(
         { id: 'child' },
         [React.createElement(
             'h1',
-            {},
+            { key: 'key1' },
             'I am h1'), React.createElement(
                 'h2',
-                {},
+                { key: 'key2' },
                 'I am h2')])
 );
-const rootElement = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = createRoot(document.getElementById('root'));
 rootElement.render(parent)
